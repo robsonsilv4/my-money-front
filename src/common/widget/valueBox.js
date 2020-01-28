@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '../layout/grid';
 
-export default function valueBox() {
+export default function valueBox(props) {
   return (
     <Grid cols={props.cols}>
       <div className={`small-box bg-${props.color}`}>
